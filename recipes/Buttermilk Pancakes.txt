@@ -1,1 +1,15 @@
-ganttSection Mix Dry IngredientsIn a large bowl, whisk together 2 cups flour, 2 tbsp sugar, 4 tsp baking powder, 1 tsp baking soda, 1 tsp fine salt.  :a, 2017-01-01, 5dSection Mix Wet IngredientsIn a second bowl, whisk together 2 cups of buttermilk, 2 eggs, 4 tbsp melted butter, 1 tsp vanilla extract.  :b, after a, 5dCombine dry and wet ingredients, whisking until just combined, some lumps are ok  :c, after b, 5dLet batter rest for 10-15 minutes :d, after c, 15dSection Cook the PancakesHeat a skillet over medium heat and melt one tbsp butter :e, after d, 2dWorking in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown. :f, after e, 3dFlip and cook until the other side is golden brown.  :g, after f, 3dTop with maple syrup, butter, whipped cream and/or fresh fruit. :h, after g, 1d
+gantt
+Section Mix Dry Ingredients
+In a large bowl, whisk together 2 cups flour, 2 tbsp sugar, 4 tsp baking powder, 1 tsp baking soda, 1 tsp fine salt.  :a, 2017-01-01, 5d
+Section Mix Wet Ingredients
+In a second bowl, whisk together 2 cups of buttermilk, 2 eggs, 4 tbsp melted butter, 1 tsp vanilla extract.  :b, after a, 5d
+Combine dry and wet ingredients, whisking until just combined, some lumps are ok  :c, after b, 5d
+Let batter rest for 10-15 minutes :d, after c, 15d
+Section Cook the Pancakes
+Heat a skillet over medium heat and melt one tbsp butter :e, after d, 2d
+Working in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown. :f, after e, 3d
+Flip and cook until the other side is golden brown.  :g, after f, 3d
+Top with maple syrup, butter, whipped cream and/or fresh fruit. :h, after g, 1d",
+
+ingred1
+ingred2

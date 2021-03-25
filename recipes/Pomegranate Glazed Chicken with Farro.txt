@@ -20,7 +20,6 @@ gantt
     prep vegetables :k, after j, 3d
     section finish
     finish :l, after k i d, 5d
-
-
+&&&
 ingred1
 ingred2

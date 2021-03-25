@@ -1,0 +1,25 @@
+gantt
+    preheat :a, 2010-01-01, 1d
+    section farro
+    boil :b, after a, 20d
+    add farro :b1, after b, 1d
+    cook farro :c, after b1, 15d
+    drain and cool farro :d, after c, 15d
+    section sear chicken
+    trim chicken and season :e, after b1, 2d
+    heat oil in skillet :f, after e, 2d
+    add chicken :f1, after f, 1d
+    sear chicken :g, after f1, 6d
+    make glaze :h, after f1, 2d
+    section roast chicken
+    apply glaze :h1, after h g, 1d
+    chicken in oven :h2, after h1, 1d
+    roast chicken :i, after h2, 10d
+    section final ingredients
+    make vinaigrette :j, after h2 g, 2d
+    prep vegetables :k, after j, 3d
+    section finish
+    finish :l, after k i d, 5d
+ 
+ingred1
+ingred2

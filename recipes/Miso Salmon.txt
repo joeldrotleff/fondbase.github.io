@@ -1,6 +1,6 @@
-﻿gantt
+gantt
 Section Mix Marinade
-Whisk 4 tbsp miso, 2 tbsp sake, 2 tbsp mirin, 2 tbsp soy sauce, 1 tsp sesame oil and 1 tbsp grated ginger in a bowl.  Pour marinade into gallon ziplock bag with 5 6-8 oz filets of salmon.  :a, 2017-01-01, 10d
+Whisk 4 tbsp miso, 2 tbsp sake, 2 tbsp mirin, 2 tbsp soy sauce, 1 tsp sesame oil and 1 tbsp grated ginger in a bowl.  Pour marinade into gallon ziplock bag with 5 6-8 oz filets of salmon.  :a, 2010-01-01, 10d
 Refrigerate overnight :a1, after a, 1440d
 Section Roast Salmon
 Preheat oven to 425 with a baking tray inside :b, after a1, 20d
@@ -8,3 +8,6 @@ Remove excess marinade from salmon and place on pre-heated baking tray :c, after
 Bake for 8 minutes :d, after c, 8d
 Rotate tray and bake for 8 additional minutes :e, after d, 8d
 Remove salmon with spatula and serve :f, after e, 1d
+
+ingred1
+ingred2

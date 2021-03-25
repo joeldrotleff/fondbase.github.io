@@ -1,0 +1,19 @@
+gantt
+Section Make Your Tangzhong
+In a small sauce pan, combine 3 TBSP water, 3 TBSP whole milk and 2 TBSP AP Flour :a, 2017-01-01, 1d
+Whisk until smooth :b, after a, 2d
+Place the saucepan over low heat, whisking constantly, until thick and the whisk leaves lines on the bottom of the pan :c, after b, 5d
+Transfer the tangzhong to a small mixing bowl or measuring cup and let it cool to room temperature :crit, d, after c, 20d
+Section Make your Dough
+Combine the cooled tangzhong with 2.5 cups AP Flour, 2 TBSP nonfat dry milk, .25 cup sugar, 1 tsp salt, 1 TBSP instant yeast, .5 cup of whole milk, 4 TBSP melted butter and 1 large egg :d1, after d, 5d  
+Mix by hand or in a stand mixer until a smooth, elastic dough forms :e, after d1, 10d
+Shape the dough into a ball, and let it rest in a lightly greased covered bowl until puffy but not necessarily doubled in bulk :crit, f, after e, 60d
+Gently deflate the dough, divide it into 8 equal pieces and shape each piece into a ball :f1, after f, 5d
+Place the rolls into a lightly greased 9" round cake pan. Cover the pan, and let the rolls rest until puffy :crit,g, after f1, 45d
+Preheat the oven to 350°F :h, after f, 20d
+Combine 1 large egg beaten with 1 TBSP cold water to make an egg wash :i, after h, 5d
+Brush the rolls with egg wash and bake until golden brown on top :crit,j, after g,h  30d 
+Remove the rolls from the oven and allow them to cool in the pan :crit,k, after j, 10d
+Transfer rolls to a wire rack to cool completely :l, after k, 15d
+
+

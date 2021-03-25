@@ -1,0 +1,30 @@
+gantt
+Section Prepare Vegetables
+Dice 1 large fresh fennel bulb into .25 inch cubes, add to a medium bowl :a, 2017-01-01, 3d
+Dice 1 medium onion into .25 inch cubes, add to fennel mixture :b, after a, 3d
+Coursely grind .5 TSP anise seeds and add to fennel mixture :c, after b, 3d
+Add 1 TSP salt and 1 tsp pepper to fennel mixture :d, after c, 1d
+Section Cook Couscous 
+Melt 1.5 TBSP butter in large saucepan over medium heat :e, after d, 5d
+Add fennel mixture and saute until fennel is almost tender :f, after e, 10d
+Add 2 cups of low-sodium chicken stock and 1 cup of water to pot and bring to boil :g, after f, 5d
+Stir in couscous and remove from heat.  Let stand, covered until liquid is absorbed :crit, h, after g, 10d
+Toast pine nuts in a dry skillet over medium heat, being careful not to burn them :i, after g, 5d
+Fluff couscous with fork, stir in pine nuts and adjust seasoning to taste :j, after i, 1d
+
+
+&&&
+
+
+Ingredients
+
+1 1/2 tablespoons butter
+1 large fresh fennel bulb, cut into 1/4-inch cubes (about 2 cups)
+1 medium onion cut into 1/4-inch cubes
+1/2 teaspoon fennel or anise seeds, coarsely ground in mortar with
+pestle or in spice mill (optional)
+2 cups low-salt chicken broth
+1 cup water
+2 cups couscous (about 12 ounces)
+1/4 cup pine nuts, toasted
+3 tablespoons chopped fresh chives or scallions

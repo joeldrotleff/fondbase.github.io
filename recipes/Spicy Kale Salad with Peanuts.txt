@@ -1,6 +1,6 @@
 gantt
 Section Mix the Dressing
-In a small bowl, combine 2 TBSP peanut butter, juice of one lime, .5 tsp sriracha hot sauce, .5 tsp fish sauce, 1 tsp toasted sesame oil, 1 TBSP fresh grated ginger, 1 tsp flaky sea salt :a, 2017-01-01, 1d
+In a small bowl, combine 2 TBSP peanut butter, juice of one lime, .5 tsp sriracha hot sauce, .5 tsp fish sauce, 1 tsp toasted sesame oil, 1 TBSP fresh grated ginger, 1 tsp flaky sea salt :a, 2010-01-01, 1d
 Whisk until smooth :b, after a, 1d
 Section Assemble the Salad
 Wash 1 bunch of kale, remove stems, chiffonade into ribbons and place in a large salad bowl :c, after b, 5d
@@ -9,3 +9,6 @@ Peel and thinly slice one shallot and add to kale mixture :e, after b, 5d
 Crush .25 cups roasted unsalted peanuts :f, after e, 2d
 Add dressing to kale mixture and massage kale with your hands :g, after e, 2d
 Top with crushed peanuts and serve h, after g, 1d
+
+ingred1
+ingred2

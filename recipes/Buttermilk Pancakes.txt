@@ -10,7 +10,6 @@ Heat a skillet over medium heat and melt one tbsp butter :e, after d, 2d
 Working in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown. :f, after e, 3d
 Flip and cook until the other side is golden brown.  :g, after f, 3d
 Top with maple syrup, butter, whipped cream and/or fresh fruit. :h, after g, 1d
-
-
+&&&
 ingred1
 ingred2

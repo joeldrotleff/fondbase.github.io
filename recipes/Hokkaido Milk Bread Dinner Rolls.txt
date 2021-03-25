@@ -1,6 +1,6 @@
 gantt
 Section Make Your Tangzhong
-In a small sauce pan, combine 3 TBSP water, 3 TBSP whole milk and 2 TBSP AP Flour :a, 2017-01-01, 1d
+In a small sauce pan, combine 3 TBSP water, 3 TBSP whole milk and 2 TBSP AP Flour :a, 2010-01-01, 1d
 Whisk until smooth :b, after a, 2d
 Place the saucepan over low heat, whisking constantly, until thick and the whisk leaves lines on the bottom of the pan :c, after b, 5d
 Transfer the tangzhong to a small mixing bowl or measuring cup and let it cool to room temperature :crit, d, after c, 20d
@@ -15,6 +15,7 @@ Combine 1 large egg beaten with 1 TBSP cold water to make an egg wash :i, after 
 Brush the rolls with egg wash and bake until golden brown on top :crit,j, after g,h  30d 
 Remove the rolls from the oven and allow them to cool in the pan :crit,k, after j, 10d
 Transfer rolls to a wire rack to cool completely :l, after k, 15d
+
 
 ingred1
 ingred2

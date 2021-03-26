@@ -15,10 +15,11 @@ Cook until lamb is just tender  :crit, f1, after f3, 90d
 Peel, seed and cut 1 butternut squash into 1 inch chunks :f2, after f3, 10d
 Add squash, return to oven and cook until squash is tender  :crit, g1, after f1, 30d
 Section Prepare Couscous
-Boil 1.25 cups of water, .25 tsp salt and 1 tbsp butter in a saucepan :g2, after f1, 5d
+Boil 1 1/4 cups of water, 1/4 tsp salt and 1 tbsp butter in a saucepan :g2, after f1, 5d
 Stir in 1 cup of whole wheat couscous, cover and remove from heat :h1, after g2, 5d
-Remove cinnamon sticks, stir in .5 cup chopped pitted prunes and season with salt and pepper :i1, after g1, 2d
+Remove cinnamon sticks, stir in 1/2 cup chopped pitted prunes and season with salt and pepper :i1, after g1, 2d
 Serve with cilantro and couscous :j1, after i1 h1, 2d
+DONE :z, after j1, 1d
 &&&
 **Lamb**
 1 pound boneless lamb shoulder, trimmed of excess fat and cut
@@ -30,12 +31,12 @@ Coarse salt and ground pepper
 2 tablespoons tomato paste
 2 cinnamon sticks1 teaspoon paprika
 1 teaspoon ground cumin
-.5  teaspoon ground turmeric
-.5  teaspoon minced fresh ginger
+1/2  teaspoon ground turmeric
+1/2  teaspoon minced fresh ginger
 2 pounds butternut squash, peeled, seeded, and cut into 1-inch chunks
-.5 cup pitted dried plums (prunes)
-.5 cup fresh cilantro leaves
+1/2 cup pitted dried plums (prunes)
+1/2 cup fresh cilantro leaves
 **Couscous**
 1 cup whole-wheat couscous
-.25 tsp salt
+1/4 tsp salt
 1 tbsp butter

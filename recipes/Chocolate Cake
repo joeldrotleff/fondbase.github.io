@@ -1,20 +1,39 @@
 gantt
 preheat oven to 300, grease pans :a, 2010-01-01, 1d
 section sponge
-    finely chop choc and combine with coffee :b, 2010-01-01, 3d
-    sift sugar flour cocoa soda powder salt :c, after b, 2d
-    beat eggs, add oil, buttermilk, vanilla and choc mixture :e, after b, 2d
-    add sugar mixture :f, after e c, 1d
+    finely chop 3oz semi-sweet chocolate and combine with 1 1/2cups hot coffee, stir, let stand until melted and smooth :b, 2010-01-01, 3d
+    sift 3cups sugar,  2 1/2cups flour, 1 1/2 cups cocoa, 2tsp baking soda, 3/4tsp baking powder, and 1 1/4tsp salt :c, 2010-01-01, 2d
+    With electric mixer, beat 3 eggs until thickened :e1, 2010-01-01, 2d
+    Slowly add 3/4cup oil, 1 1/2cups buttermilk, 3/4tsp vanilla and melted chocolate mixture to eggs :e, after e1, 2d
+    add sugar mixture and beat on medium until well combined :f, after e c, 1d
     put in oven :g, after a f, 1d
-    bake :crit, h, after g, 1d
+    bake until tester comes out clean, 1hr to 1hr 10mins :crit, h, after g, 60d
 section frosting
-    chop chocolate :i, after g, 1d
-    boil cream, sugar, corn syrup over low, whisk in sugar :j, after g, 2d
-    Remove from heat, whisk in chocolate :k, after i j, 1d
-    add butter :l, after k, 1d
-    cool, until spreadable :crit, m, after l, 4d
+    Finely chop 1lb semisweet chocolate :i, after g, 1d
+    boil 1cup cream, 2tbsp sugar, 2tbsp corn syrup over moderately low heat, whisking until sugar is dissolved :j, after g, 2d
+    Remove from heat, whisk in 1lb chocolate until melted :k, after i j, 1d
+    Cut butter into pieces and add one at a time, whisking until smooth :l, after k, 1d
+    cool cake and frosting until spreadable :crit, m, after l, 20d
 section assemble
     spread frosting between layers and over top and sides, :z, after m h, 1d
+    DONE :zz, after z, 1d
 &&&
-ingred1
-ingred2
+**Cake Layers**
+3oz semi-sweet chocolate (like Callebaut)
+1 1/2cups hot brewed coffee
+3cups sugar
+2 1/2cups all-purpose flour
+1 1/2cups unsweetened cocoa powder (not dutch process)
+2tsp baking soda
+3/4tsp baking powder
+1 1/4tsp salt
+3 large eggs
+3/4cup vegetable oil
+1 1/2cups buttermilk (well shaken)
+3/4tsp vanilla
+**Frosting**
+1lb semisweet chocolate
+1cup heavy cream
+2tbsp sugar
+2tbsp light corn syrup
+1/2stick (1/4cup) unsalted butter

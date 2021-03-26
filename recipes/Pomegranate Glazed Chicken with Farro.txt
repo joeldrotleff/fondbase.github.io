@@ -1,25 +1,36 @@
 gantt
-    preheat :a, 2010-01-01, 1d
+    preheat oven to 450 degrees :a, 2010-01-01, 1d
     section farro
-    boil :b, after a, 20d
-    add farro :b1, after b, 1d
-    cook farro :c, after b1, 15d
-    drain and cool farro :d, after c, 15d
+    bring 4quarts water to boil in Dutch oven :b, after a, 20d
+    add 1 1/2cups farro and 1tbsp salt :b1, after b, 1d
+    cook farro until grains are tender with slight chew 15-30mins :c, after b1, 15d
+    drain and cool farro completely, spreading on rimmed baking sheet :d, after c, 15d
     section sear chicken
-    trim chicken and season :e, after b1, 2d
-    heat oil in skillet :f, after e, 2d
-    add chicken :f1, after f, 1d
-    sear chicken :g, after f1, 6d
-    make glaze :h, after f1, 2d
+    trim 4 bone-in split chicken breasts, pat dry and season with salt and pepper :e, after b1, 2d
+    heat 1tsp oil in 12in skillet over medium high heat until just smoking :f, after e, 2d
+    add chicken skin side down :f1, after f, 1d
+    cook until well browned, 6-8 mins :g, after f1, 6d
+    transfer chicken to wire rack in baking sheet :g1, after g, 1d
+    combine 6tbsp pomegranate molasses, 1tsp cinnamon, 1/8 tsp salt :h, after f1, 2d
     section roast chicken
-    apply glaze :h1, after h g, 1d
-    chicken in oven :h2, after h1, 1d
-    roast chicken :i, after h2, 10d
+    brush top of browned skin with half of glaze :h1, after h g, 1d
+    transfer chicken to oven :h2, after h1, 1d
+    roast chicken for 10mins :i, after h2, 10d
+    brush chicken with remaining glaze and continue to roast until 160, 5-10mins longer :i2, after i, 5d
     section final ingredients
-    make vinaigrette :j, after h2 g, 2d
-    prep vegetables :k, after j, 3d
+    minch shallot, squeeze 2tbsp lemon juice. Whisk 2tbsp yogurt, shallot, lemon juice, 8tsp oil, 1/4 tsp salt and 1/4tsp pepper in large bowl :j, after h2 g, 2d
+    Cut 1 cucumber in half lengthwise, see and cut into 1/4in pieces, halve tomatoes, chop 1/4 cup mint :k, after j, 3d
     section finish
-    finish :l, after k i d, 5d
+    Add cooled farro, cucumbers, tomatoes and mint to bowl with vinaigrette, toss gently, season to taste and serve with chicken :l, after k i2 d, 5d
 &&&
-ingred1
-ingred2
+1 1/2cups whole farro
+4 (10-12oz) bone-in split chicken breasts
+3tbsp extra-virgin olive oil
+6tbsp pomegranate molasses
+1tsp ground cinnamon
+1 shallot
+1 lemon
+2tbsp plain Greek yogurt
+1 English cucumber
+6oz cherry tomatoes
+fresh mint (1/4 cup)

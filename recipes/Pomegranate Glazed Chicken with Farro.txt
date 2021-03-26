@@ -3,7 +3,7 @@ gantt
     section farro
     bring 4quarts water to boil in Dutch oven :b, after a, 20d
     add 1 1/2cups farro and 1tbsp salt :b1, after b, 1d
-    cook farro until grains are tender with slight chew 15-30mins :c, after b1, 15d
+    cook farro until grains are tender with slight chew 15-30mins :crit, c, after b1, 15d
     drain and cool farro completely, spreading on rimmed baking sheet :d, after c, 15d
     section sear chicken
     trim 4 bone-in split chicken breasts, pat dry and season with salt and pepper :e, after b1, 2d

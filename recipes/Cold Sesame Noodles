@@ -1,13 +1,13 @@
 gantt
 Section Cook Noodles
 Bring a large pot of water to a boil :a, 2010-01-01, 5d
-Add 1lb Chinese egg noodles, and cook until barely tender :crit, a1, after a, 5d
+Add 1 lb Chinese egg noodles, and cook until barely tender :crit, a1, after a, 5d
 Drain in a colander, rinse with cold water, and drain again :b, after a1, 2d
 Transfer to a bowl and add 3 TBSP toasted sesame oil.  Toss until evenly coated and set aside :c, after b, 2d
 Section Prepare Sauce
 Thinly slice two scallions and add to a mixing bowl :d, after a, 1d
 Finely mince two cloves of garlic and add to scallions :e, after d, 2d
-Peel and finely mince a 1.5 inch piece of fresh ginger and add to scallion mixture :f, after e, 4d
+Peel and finely mince a 1 1/2 inch piece of fresh ginger and add to scallion mixture :f, after e, 4d
 To the scallion mixture, add 1 TBSP toasted sesame oil, 3.5 TBSP soy sauce, 2 TBSP rice vinegar, 2 TBSP sesame paste, 2 TBSP peanut butter, 1 TBSP sugar, 2.5 tsp sambal oelek :g, after f, 2d
 Whisk together the sauce :h, after g, 2d
 Section Prepare Vegetables
@@ -17,6 +17,7 @@ Section Assemble Noodles
 Pour sauce over noodles :k, after h c, 1d
 Add cucumber and carrots and toss well to mix thoroughly :l, after k j, 2d
 Garnish with crushed, roasted unsalted peanuts and serve :m, after l, 1d
+DONE :z, after m, 1d
 &&&
 1 lb. Chinese egg noodles, fresh or frozen
 1/4 cup toasted sesame oil

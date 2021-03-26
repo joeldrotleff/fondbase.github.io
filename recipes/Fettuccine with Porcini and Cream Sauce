@@ -1,6 +1,6 @@
 gantt
 Section Rehydrate Porcini Mushrooms
-In a small bowl, 2oz of dried porcini mushrooms to 2 cups of hot water.  Allow to stand. :a, 2010-01-01, 20d
+In a small bowl, 2 oz of dried porcini mushrooms to 2 cups of hot water.  Allow to stand. :a, 2010-01-01, 20d
 Carefully lift the mushrooms from the soaking liquid with a fork, reserving the liquid :b, after a, 1d
 Roughly chop the porcini and set aside :a1, after b, 2d
 Pour the reserved soaking liquid through a small mesh strainer, lined with a single paper towel and set aside :c, after a1, 5d
@@ -17,6 +17,7 @@ Adjust sauce seasoning to taste :l, after k, 1d
 Strain pasta, reserving 1-2 TBSP of pasta water :m, after j, 1d
 Whisk reserved pasta water into sauce and add strained pasta.  Toss to coat well :n, after k m, 2d
 Garnish with parsley and serve immediately :o, after n, 1d
+DONE :z, after o, 1d
 &&&
 3 tablespoons unsalted butter
 1 medium onion , minced

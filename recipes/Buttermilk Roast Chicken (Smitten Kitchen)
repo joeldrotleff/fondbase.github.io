@@ -1,15 +1,16 @@
 gantt
 Section Prepare Marinade
 Peel and smash 5 cloves of garlic and add to a mixing bowl :a, 2010-01-01, 3d
-Add 2 cups buttermilk, 1 TBSP table salt, 1 TBSP granulated sugar, 1.5 TSP paprika and 2 TSP freshly ground black pepper. Whisk together :b, after a, 5d
-Place 3lbs chicken thighs in gallon-sized freezer bag and pour buttermilk brine over them, swish it around so that all parts are covered and refrigerate overnight :c, after b, 1440d
+Add 2 cups buttermilk, 1 TBSP table salt, 1 TBSP granulated sugar, 1 1/2 TSP paprika and 2 TSP freshly ground black pepper. Whisk together :b, after a, 5d
+Place 3 lbs chicken thighs in gallon-sized freezer bag and pour buttermilk brine over them, swish it around so that all parts are covered and refrigerate overnight :c, after b, 1440d
 Section Roast Chicken 
 Preheat oven to 425 degrees :d, after c, 20d
 Line a baking tray with foil :e, after c, 1d
 Remove chicken from buttermilk brine and arrange on baking tray :f, after e, 2d
 Drizzle lightly with olive oil, then sprinkle with additional paprika and flaky sea salt to taste :g, after f, 2d
 Roast until brown and a bit scorched in spots :crit, h, after g d, 30d
-Serve immediately :I, after h, 1d
+Serve immediately :i, after h, 1d
+DONE :z, after i, 1d
 &&&
 2 cups buttermilk
 5 garlic cloves, peeled and smashed

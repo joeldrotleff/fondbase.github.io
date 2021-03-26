@@ -8,19 +8,19 @@ In a large bowl, toss lamb shoulder with 2 tbsp flour, 1/2 tsp course salt and 1
 Start searing lamb in batches :b3, after b2 b1, 1d
 Brown lamb on all sides and transfer to a bowl, repeat with each batch :crit, c1, after b3, 15d
 While lamb browns, coarsely chop 1 onion and 2 cloves of garlic :c2, after b3, 5d
-Reduce heat to medium and add onion, garlic, 2 tbsp tomato paste and a pinch of salt and pepper.  Cook until onion has softened :d1, after c1, 5d
-Add 1 tsp paprika, 1 tsp ground cumin, ? tsp minced fresh ginger, 2 cinnamon sticks, 4 cups chicken stock and reserved lamb along with any juices that have accumulated and bring to a boil :e1, after d1, 5d
-Cover pot and transfer to oven.  Cook until lamb is just tender  :crit, f1, after e1 a, 90d
-Peel, seed and cut 1 butternut squash into 1 inch chunks :f2, after e1, 10d
+Reduce heat to medium and add onion, garlic, 2 tbsp tomato paste and a pinch of salt and pepper.  Cook until onion has softened :d1, after c2, 5d
+Add 1 tsp paprika, 1 tsp ground cumin, 1/2 tsp minced fresh ginger, 2 cinnamon sticks, 4 cups chicken stock and reserved lamb along with any juices that have accumulated and bring to a boil :e1, after c1 d1, 5d
+Cover pot and transfer to oven. :f3, after e1 a, 1d 
+Cook until lamb is just tender  :crit, f1, after f3, 90d
+Peel, seed and cut 1 butternut squash into 1 inch chunks :f2, after f3, 10d
 Add squash, return to oven and cook until squash is tender  :crit, g1, after f1, 30d
 Section Prepare Couscous
 Boil 1.25 cups of water, .25 tsp salt and 1 tbsp butter in a saucepan :g2, after f1, 5d
 Stir in 1 cup of whole wheat couscous, cover and remove from heat :h1, after g2, 5d
 Remove cinnamon sticks, stir in .5 cup chopped pitted prunes and season with salt and pepper :i1, after g1, 2d
-Serve with cilantro and couscous :j1, after g1, 2d
+Serve with cilantro and couscous :j1, after i1 h1, 2d
 &&&
-Ingredients
-Lamb
+**Lamb((
 1 pound boneless lamb shoulder, trimmed of excess fat and cut
 into 1-inch cubes
 2 tablespoons all-purpose flour
@@ -35,7 +35,7 @@ Coarse salt and ground pepper
 2 pounds butternut squash, peeled, seeded, and cut into 1-inch chunks
 .5 cup pitted dried plums (prunes)
 .5 cup fresh cilantro leaves
-Couscous
+**Couscous**
 1 cup whole-wheat couscous
 .25 tsp salt
 1 tbsp butter

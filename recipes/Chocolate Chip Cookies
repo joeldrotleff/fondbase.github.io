@@ -1,13 +1,15 @@
 gantt
 section dough
-    Melt butter in a medium saucepan over medium-high heat. Cook, gently swirling pan constantly, until particles begin to turn golden brown and butter smells nutty, about 5 minutes. Remove from heat and continue swirling the pan until the butter is a rich brown, about 15 seconds longer. :b, 2010-01-01, 5d
-    Transfer to a medium bowl, whisk in ice cube, transfer to refrigerator, and allow to cool completely, about 20 minutes, whisking occasionally. :e1, after b, 20d
-    Meanwhile, whisk together flour, baking soda, and salt in a large bowl. Place granulated sugar, eggs, and vanilla extract in the bowl of a stand mixer fitted with the whisk attachment. :e, after b, 5d
-     Whisk on medium-high speed until mixture is pale brownish-yellow and falls off the whisk in thick ribbons when lifted, about 5 minutes. :f, after e, 5d
-    Fit paddle attachment onto mixer. When brown butter mixture has cooled (it should be just starting to turn opaque again and firm around the edges), add brown sugar and cooled brown butter to egg mixture in stand mixer.:g, after e1 e, 2d
+    Melt 2 sticks butter in a medium saucepan over medium-high heat. Cook, gently swirling pan constantly, until particles begin to turn golden brown and butter smells nutty, about 5 minutes. :b, 2010-01-01, 5d
+    Remove from heat and continue swirling the pan until the butter is a rich brown, about 15 seconds longer. :b1, after b, 1d
+    Transfer to a medium bowl, whisk in 1 ice cube, transfer to refrigerator, and allow to cool completely, about 20 minutes, whisking occasionally. :e1, after b, 20d
+    Meanwhile, whisk together 10oz (~2 cups) flour, 3/4tsp baking soda, and 2tsp kosher salt (or 1tsp table salt) in a large bowl. :e, after b1, 5d
+    Place 5oz (~3/4 cup) granulated sugar, 2 eggs, and 2tsp vanilla extract in the bowl of a stand mixer fitted with the whisk attachment. :e2, after b1, 5d
+    Whisk on medium-high speed until mixture is pale brownish-yellow and falls off the whisk in thick ribbons when lifted, about 5 minutes. :f, after e2, 5d
+    Fit paddle attachment onto mixer. When brown butter mixture has cooled (it should be just starting to turn opaque again and firm around the edges), add 5oz (~1/2 cup + 2tbsp) brown sugar and cooled brown butter to egg mixture in stand mixer.:g, after e1 f, 2d
     Mix on medium speed to combine, about 15 seconds. :h, after g, 1d
-    Add flour mixture and mix on low speed until just barely combined, with some dry flour still remaining, about 15 seconds. :h1, after h, 1d
-    Add chocolate and mix on low speed until dough comes together, about 15 seconds longer. :h2, after h1, 1d
+    Add flour mixture and mix on low speed until just barely combined, with some dry flour still remaining, about 15 seconds. :h1, after e h, 1d
+    Add 8oz chocolate (chips or chunks) and mix on low speed until dough comes together, about 15 seconds longer. :h2, after h1, 1d
     Transfer to an airtight container and refrigerate dough at least overnight and up to 3 days. :h3, after h2, 720d
 section baking
     When ready to bake, adjust oven racks to upper- and lower-middle positions and preheat oven to 325°F. :i, after h3, 10d

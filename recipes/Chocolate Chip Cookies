@@ -16,9 +16,10 @@ section baking
     Using a 1-ounce ice cream scoop or a spoon, place scoops of cookie dough onto a nonstick or parchment-lined baking sheet. Each ball should measure approximately 3 tablespoons in volume, and you should be able to fit 6 to 8 balls on each sheet. :j, after h3, 2d
     Tear each ball in half to reveal a rougher surface, then stick them back together with the rough sides facing outward. :k, after j, 1d
     Transfer to oven. :l, after k, 1d
-    Bake until golden brown around edges but still soft, 13 to 16 minutes, rotating pans back to front and top to bottom halfway through baking. :crit, m, after l h, 13d
+    Bake until golden brown around edges but still soft, 13 to 16 minutes total, rotating half-way through :crit, m, after l h, 7d
+    Rotate pans back to front and top to bottom and continue baking. :crit, m1, after m, 13d
 section assemble
-    Remove baking sheets from oven. While cookies are still hot, sprinkle very lightly with coarse salt and gently press salt down to embed. Let cool for 2 minutes, then transfer cookies to a wire rack to cool completely. :z, after m, 2d
+    Remove baking sheets from oven. While cookies are still hot, sprinkle very lightly with coarse salt and gently press salt down to embed. Let cool for 2 minutes, then transfer cookies to a wire rack to cool completely. :z, after m1, 2d
     Repeat with remaining cookie dough. Allow cookies to cool completely before storing in an airtight container, plastic bag, or cookie jar at room temperature for up to 5 days. :zz, after z, 1d
 &&&
 8 ounces unsalted butter (2 sticks; 225g)

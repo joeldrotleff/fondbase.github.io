@@ -2,7 +2,7 @@ gantt
 section dough
     Melt 2 sticks butter in a medium saucepan over medium-high heat. Cook, gently swirling pan constantly, until particles begin to turn golden brown and butter smells nutty, about 5 minutes. :b, 2010-01-01, 5d
     Remove from heat and continue swirling the pan until the butter is a rich brown, about 15 seconds longer. :b1, after b, 1d
-    Transfer to a medium bowl, whisk in 1 ice cube, transfer to refrigerator, and allow to cool completely, about 20 minutes, whisking occasionally. :e1, after b, 20d
+    Transfer to a medium bowl, whisk in 1 ice cube, transfer to refrigerator, and allow to cool completely, about 20 minutes, whisking occasionally. :e1, after b1, 20d
     Meanwhile, whisk together 10oz (~2 cups) flour, 3/4tsp baking soda, and 2tsp kosher salt (or 1tsp table salt) in a large bowl. :e, after b1, 5d
     Place 5oz (~3/4 cup) granulated sugar, 2 eggs, and 2tsp vanilla extract in the bowl of a stand mixer fitted with the whisk attachment. :e2, after b1, 5d
     Whisk on medium-high speed until mixture is pale brownish-yellow and falls off the whisk in thick ribbons when lifted, about 5 minutes. :f, after e2, 5d

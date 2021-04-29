@@ -1,0 +1,56 @@
+---
+name: "Buttermilk Pancakes"
+ingredients:
+  - "2 cups flour"
+  - "2 tbsp sugar"
+  - "4 tsp baking powder"
+  - "1 tsp baking soda"
+  - "1 tsp fine salt"
+  - "2 cups buttermilk"
+  - "4 tbsp melted butter"
+  - "1 tsp vanilla extract"
+  - "2 beaten eggs"
+steps:
+  - 1:
+      name: "Mix Dry Ingredients"
+      step: "In large bowl, whisk 2 cups flour, 2 tbsp sugar, 4 tsp baking powder, 1 tsp baking soda, 1 tsp fine salt."
+      dependencies: null
+      time: 5
+  - 2: 
+      name: "Mix Wet Ingredients"
+      step: "In second bowl, whisk together 2 cups buttermilk, 2 eggs, 4 tbsp melted butter, 1 tsp vanilla extract."
+      dependencies: null
+      time: 5
+  - 3:
+      name: "Combine Wet & Dry"
+      step: "Combine dry and wet ingredients, whisking until just combined, some lumps are ok"
+      dependencies: [1, 2]
+      time: 5
+  - 4:
+      name: "Rest Batter"
+      step: "Let batter rest for 10-15 minutes"
+      depdendencies: [3]
+      time: 15
+      timer: True
+  - 5: 
+      name: "Heat Skillet"
+      step: "Heat a skillet over medium heat and melt one tbsp butter"
+      dependencies: [3]
+      time: 2
+  - 6:
+      name: "Cook"
+      step: "Working in batches, carefully add a ladleful of batter into skillet and cook until bubbles have formed on the top and the bottom is golden brown."
+      dependencies: [5]
+      time: 3
+      timer: True
+  - 7:
+      name: "Flip & Continue Cooking"
+      step: "Flip and cook until the other side is golden brown."
+      dependencies: [6]
+      time: 3
+      timer: True
+  - 8:
+      name: "Top & Enjoy"
+      step: "Top with maple syrup, butter, whipped cream and/or fresh fruit."
+      dependencies: [7]
+      time: 1

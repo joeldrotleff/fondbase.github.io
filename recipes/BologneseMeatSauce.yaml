@@ -9,7 +9,7 @@ ingredients:
   - "1/2 cup chopped celery"
   - "1/2 cup chopped carrot"
   - "3/4 pound ground beef chuck"
-  - Salt
+  - "Salt"
   - "Freshly ground black pepper"
   - "1 cup whole milk"
   - "Whole nutmeg"
@@ -18,59 +18,44 @@ ingredients:
   - "1 1/4 to 1 1/2 pounds pasta"
   - "Freshly grated parmigiano-reggiano"
 steps: 
-  - 
-    1: 
+  - 1: 
       dependencies: ~
       name: "Saute Onion"
       step: "Put 1 tbsp olive oil, 3 tbsp butter, 1/2 cup chopped onion in the pot, and turn the heat on to medium. Cook and stir the onion until it has become translucent"
       time: 5
-  - 
-    2: 
-      dependencies: 
-        - 1
+  - 2: 
+      dependencies: [1]
       name: "Add Celery and Carrots"
       step: "Add 1/2 cup chopped celery and 1/2 cup chopped carrot. Continue to cook for about 2 minutes, stirring the vegetables to coat them well."
       time: 2
-  - 
-    3: 
-      dependencies: 
-        - 2
+  - 3: 
+      dependencies: [2]
       name: "Add Meat"
       step: "Add 3/4 ground beef, a large pinch of salt and a few grindings of pepper.  Crumble the meat with a fork, stir well, and cook until the beef has lost its raw, red color"
       time: 5
-  - 
-    4: 
-      dependencies: 
-        - 3
+  - 4: 
+      dependencies: [3]
       name: "Add Milk"
       step: "Add 1 cup of milk and let it simmer gently, stirring frequently, until it has bubbled away completely. Add 1/8 teaspoon—of nutmeg, and stir"
       time: 5
-  - 
-    5: 
-      dependencies: 
-        - 4
+  - 5: 
+      dependencies: [4]
       name: "Add Wine"
       step: "Add the wine, let it simmer until it has evaporated"
       time: 5
-  - 
-    6: 
-      dependencies: 
-        - 5
+  - 6: 
+      dependencies: [5]
       name: "Add Tomatoes and Simmer"
       step: "Add the tomatoes and stir thoroughly to coat all ingredients well. When the tomatoes begin to bubble, turn the heat down so that the sauce cooks at the laziest of simmers, with just an intermittent bubble breaking through to the surface. Cook, uncovered for 3 hours or more, stirring from time to time and adding 1/2 cup of water whenever necessary. At the end, however, no water at all must be left and the fat must separate from the sauce. Taste and correct for salt."
       time: 180
       timer: True
-  - 
-    7: 
-      dependencies: 
-        - 6
+  - 7: 
+      dependencies: [6]
       name: "Taste and Adjust Seasoning"
       step: "Taste and add salt if needed."
       time: 1
-  - 
-    8: 
-      dependencies: 
-        - 7
+  - 8: 
+      dependencies: [7]
       name: "Toss with Pasta and Serve"
       step: "Toss with cooked drained pasta, adding 1 tbsp butter, and serve with freshly grated Parmesan on the side"
       time: 2

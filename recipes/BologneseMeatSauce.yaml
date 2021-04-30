@@ -17,8 +17,6 @@ ingredients:
   - "1 1/2 cups canned Italian plum tomatoes, cut up, with their juice"
   - "1 1/4 to 1 1/2 pounds pasta"
   - "Freshly grated parmigiano-reggiano"
-name: "Bolognese Meat Sauce"
-source: "Essentials of Classic Italian Cooking"
 steps: 
   - 
     1: 
@@ -61,7 +59,7 @@ steps:
       name: "Add Tomatoes and Simmer"
       step: "Add the tomatoes and stir thoroughly to coat all ingredients well. When the tomatoes begin to bubble, turn the heat down so that the sauce cooks at the laziest of simmers, with just an intermittent bubble breaking through to the surface. Cook, uncovered for 3 hours or more, stirring from time to time and adding 1/2 cup of water whenever necessary. At the end, however, no water at all must be left and the fat must separate from the sauce. Taste and correct for salt."
       time: 180
-      timer: true
+      timer: True
   - 
     7: 
       dependencies: 

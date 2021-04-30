@@ -1,0 +1,54 @@
+---
+name: "Ferran Adrià's Roasted Chicken"
+author: "Ferran Adrià"
+source: "Essentials of Classic Italian Cooking"
+ingredients:
+  - "2 whole chickens, 4 1/2 pounds each"
+  - "2 tablespoons olive oil"
+  - "2 lemons"
+  - "20 dried bay leaves"
+  - "3 3/4 teaspoons dried rosemary"
+  - "1/3 cup dried thyme"
+  - "2/3 teaspoon black peppercorns"
+  - "4 garlic cloves"
+  - "4 tablespoons white wine"
+  - "1/3 cup water"
+  - "1 1/2 teaspoons salt"
+steps:
+  - 1:
+     name: "Preheat the Oven"
+     step: "Preheat the oven to 425°F. Use a pair of strong kitchen scissors to snip off the tips of the wings"
+     dependencies: null
+     time: 15
+  - 2:
+     name: "Prepare the Herbs"
+     step: "Put 20 bay leaves, 3 3/4 tsp dried rosemary, 1/3 cup thyme, 2/3 tsp peppercorns into a small food processor or blender and process to a fine powder"
+     dependencies: null
+     time: 3
+  - 3:
+     name: "Season the Chicken"
+     step: "Put the chicken in a roasting pan, season inside and out with salt, then rub with oil. Finely grate the lemon zest over the breast and legs and rub the herb mixture all over. Cut the lemon and place in the cavity along with 4 unpeeled garlic cloves"
+     dependencies: null
+     time: 3
+  - 4:
+     name: "Roast the Chicken"
+     step: "Roast the chicken, breast facing down, for 25 minutes"
+     dependencies: [1]
+     time: 25
+     timer: True
+  - 5:
+     name: "Turn the Chicken"
+     step: "Turn the chicken over and roast it for another 35 minutes, until golden and cooked through"
+     dependencies: [4]
+     time: 35
+     timer: True
+  - 6:
+     name: "Prepare the Pan Sauce"
+     step: "Remove the chicken and set aside to rest in a warm place. Place the roasting pan over medium-high heat on the stove top. Pour in 4 tbsp white wine and 1/3 cup of water, and loosen any fond with a wooden spoon. Boil the cooking juices down to make gravy"
+     dependencies: [5]
+     time: 10
+  - 7:
+     name: "Carve and Serve"
+     step: "Carve the chicken into pieces and place on a serving dish"
+     dependencies: [6]
+     time: 5

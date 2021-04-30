@@ -18,7 +18,7 @@ steps:
       step: "In large bowl, whisk 2 cups flour, 2 tbsp sugar, 4 tsp baking powder, 1 tsp baking soda, 1 tsp fine salt."
       dependencies: null
       time: 5
-  - 2: 
+  - 2:
       name: "Mix Wet Ingredients"
       step: "In second bowl, whisk together 2 cups buttermilk, 2 eggs, 4 tbsp melted butter, 1 tsp vanilla extract."
       dependencies: null

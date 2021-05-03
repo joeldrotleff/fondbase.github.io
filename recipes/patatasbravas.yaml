@@ -1,0 +1,50 @@
+---
+name: "Patatas Bravas"
+author: "Simone and Inés Ortega"
+source: "The Book of Tapas"
+ingredients:
+  - 12 small potatoes, unpeeled
+  - 2 tablespoons olive oil
+  - 1 tablespoon white wine vinegar
+  - 1 pinch hot paprika
+  - 1 clove garlic, chopped
+  - 1 teaspoon chili powder or Worcestershire sauce
+  - Salt
+steps:
+  - 1:
+     name: "Boil Water"
+     step: "Bring a large pot of salted water to a boil."
+     dependencies: null
+     time: 10
+  - 2:
+     name: "Cook the Potatoes"
+     step: "Add the potatoes and cook for 20 to 25 minutes, until tender but not falling apart."
+     dependencies: [1]
+     time: 20
+     timer: True
+  - 3:
+     name: "Chop the Garlic"
+     step: "While the potatoes cook, mince 1 clove of garlic."
+     dependencies: null
+     time: 2
+  - 4:
+     name: "Mix the Sauce"
+     step: "In a bowl, mix together 2 tbsp olive oil, 1 tbsp white wine vinegar, 1 pinch hot paprika, 1 clove minced garlic, and 1 tsp chili powder or Worcestershire sauce."
+     dependencies: [3]
+     time: 2
+  - 5:
+     name: "Drain and Cool the Potatoes"
+     step: "Drain and cool the potatoes."
+     dependencies: [2]
+     time: 10
+     timer: True
+  - 6:
+     name: "Dice the Potatoes"
+     step: "Peel and dice the cooled potatoes.  Place them on a platter."
+     dependencies: [5]
+     time: 3
+  - 7:
+     name: "Mix the Potatoes with the Sauce"
+     step: "Pour the sauce mixture over the potatoes and serve hot."
+     dependencies: [6,4]
+     time: 12

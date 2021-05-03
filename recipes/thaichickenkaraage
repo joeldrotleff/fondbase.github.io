@@ -1,0 +1,76 @@
+---
+name: "Thai Chicken Karaage"
+author: "Heather Shouse"
+source: "Food Trucks"
+ingredients:
+  - 1 cup fish sauce
+  - 1 cup white vinegar
+  - 1 cup sugar
+  - 1 head garlic, cloves separated and minced
+  - 4 Thai chiles, coarsely chopped
+  - 6 boneless, skinless chicken thighs, diced
+  - Canola oil, for frying
+  - 1 cup cornstarch
+  - 1/4 onion, thinly sliced
+  - 2 jalapeños, thinly sliced
+  - 1 cup chile sauce, such as Mae Ploy brand
+  - Salt
+  - 12 fresh cilantro leaves, torn
+  - 6 fresh mint leaves, torn
+  - 6 fresh basil leaves, torn
+steps:
+  - 1:
+     name: "Mince Garlic"
+     step: "Finely mince one who head of garlic and place in medium mixing bowl."
+     dependencies: null
+     time: 10
+  - 2:
+     name: "Roughly Chop Chilies"
+     step: "Roughly Chop 4 Thai Chilies and add to minced garlic."
+     dependencies: null
+     time: 5
+  - 3:
+     name: "Make the Brine"
+     step: "To the bowl with the garlic and chilies, add 1 cup fish sauce, 1 cup white vinegar, 1 cup sugar.  Stir to combine.  Set aside 1 cup of the brine for later."
+     dependencies: [2, 1]
+     time: 3
+  - 4:
+     name: "Add the Chicken and Marinate Overnight"
+     step: "Add the 6 boneless, skinless chicken thighs to the remaining brine, cover, and refrigerate for 24 hours."
+     dependencies: [3]
+     time: 1440
+  - 5:
+     name: "Drain the Chicken"
+     step: "Remove the chicken from the brine and place the pieces in a strainer or colander, letting the excess brine drain off. Discard the brine."
+     dependencies: [4]
+     time: 10
+  - 6:
+     name: "Slice Onion and Jalapenos"
+     step: "While the chicken drains, thinly slice 1/4 onion and 2 jalapenos and place in a small bowl."
+     dependencies: [5]
+     time: 10    
+  - 7:
+     name: "Heat the Oil"
+     step: "Pour enough oil into a deep pot or countertop fryer to cover the chicken and heat to 370°F."
+     dependencies: [5]
+     time: 10
+  - 8:
+     name: "Prepare Cornstarch"
+     step: "Pour 1 cup of cornstarch onto a plate."
+     dependencies: [4]
+     time: 1
+  - 9:
+     name: "Fry the Chicken"
+     step: "Dust the chicken generously with cornstarch and fry until golden brown, turning occasionally to brown on both sides."
+     dependencies: [8]
+     time: 15
+  - 10:
+     name: "Remove Chicken"
+     step: "Once the chicken is golden brown on both sides, remove from the fryer with tongs or a slotted spoon and transfer to a large mixing bowl."
+     dependencies: [9]
+     time: 2
+  - 11:
+     name: "Toss with Reserved Brine"
+     step: "Add the sliced onion and jalapeños, the reserved 1 cup brine, and 1 cup chile sauce.  Toss to coat, and season with salt to taste. Garnish with torn cilantro, mint, and basil leaves and serve."
+     dependencies: [10]
+     time: 2

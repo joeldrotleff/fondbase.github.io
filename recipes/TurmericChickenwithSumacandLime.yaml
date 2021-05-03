@@ -1,0 +1,62 @@
+---
+name: "Turmeric Chicken with Sumac and Lime"
+author: "Louisa Shafia"
+source: "The New Persian Kitchen"
+ingredients:
+  - 1 teaspoon ground turmeric
+  - Sea salt and freshly ground black pepper
+  - 4 bone-in chicken thighs
+  - 2 tablespoons grapeseed oil
+  - 3/4 cup water
+  - 4 cloves garlic, minced
+  - 2 juicy limes, halved
+  - Sumac, for garnish
+steps:
+  - 1:
+     name: "Mix Spices"
+     step: "In a small bowl, mix 1 tsp turmeric with 1 tbsp salt and 2 tsp pepper."
+     dependencies: null
+     time: 1
+  - 2:
+     name: "Season Chicken"
+     step: "Place the chicken in a large skillet.  Rub on all sides with 2 tbsp grapeseed oil and the spice mixture, leaving them skin-side down."
+     dependencies: [1]
+     time: 3
+  - 3:
+     name: "Cook Chicken"
+     step: "Place the skillet with the chicken on the stove and turn heat to medium-high. Cook until fat has rendered and skin is crisp, about 7 minutes."
+     dependencies: [2]
+     time: 7
+     timer: True
+  - 4:
+     name: "Turn Chicken"
+     step: "Once the skin is crisp and brown, flip the chicken over and cook for another 7 minutes."
+     dependencies: [3]
+     time: 7
+     timer: True
+  - 5:
+     name: "Mince Garlic"
+     step: "While the chicken cooks, mince 4 cloves of garlic."
+     dependencies: [3]
+     time: 3
+  - 6:
+     name: "Add Wated and Garlic"
+     step: "Pour in 3/4 cup water and 4 cloves of minced garlic.  Bring the water to a boil, then turn down the heat to low and cover.  Simmer for 25 minutes."
+     dependencies: [5]
+     time: 25
+     timer: True
+  - 7:
+     name: "Transfer Chicken"
+     step: "Transfer the chicken to a serving platter, turn up the heat to high, and reduce the cooking liquid for a few minutes, stirring occasionally until it’s slightly thickened."
+     dependencies: [6]
+     time: 5
+  - 8:
+     name: "Taste and Season the Sauce"
+     step: "Season to taste with salt and pepper, and pour the sauce over the chicken."
+     dependencies: [7]
+     time: 1
+  - 9:
+     name: "Garnish and Serve"
+     step: "Dust the chicken with sumac and pepper, garnish with lime halves, and serve."
+     dependencies: [8]
+     time: 1

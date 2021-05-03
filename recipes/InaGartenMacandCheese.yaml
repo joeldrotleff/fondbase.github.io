@@ -1,0 +1,64 @@
+---
+name: "Ina Garten's Overnight Mac & Cheese"
+author: "Ina Garten"
+source: "Ina Garten"
+ingredients:
+  - Kosher salt and freshly ground black pepper
+  - 8 ounces elbow macaroni or cavatappi, preferably Italian
+  - 3 cups heavy cream
+  - 2 cups grated Gruyere, divided
+  - 1 cup grated sharp white Cheddar, such as Cabot, divided
+  - ¼ teaspoon ground nutmeg
+  - 2 tablespoons melted butter, plus extra for the dish
+  - 1½ cups fine fresh white bread crumbs
+steps:
+  - 1:
+     name: "Cook Pasta"
+     step: "Bring a large pot of water to a boil.  Add 2 tbsp salt and 8 oz of elbow macaroni or cavatappi.  Boil for 4 minutes.  Drain and set aside."
+     dependencies: null
+     time: 15
+     timer: True
+  - 2:
+     name: "Prepare cheese sauce"
+     step: "In a medium (10-inch) bowl, combine 3 cups cream, ¼ teaspoon ground nutmeg, 1 cup of Gruyere, ½ cup of Cheddar, 2 teaspoons salt, and 1 teaspoon pepper.  Stir it into the cream mixture, cover the bowl with plastic wrap, and refrigerate for 24 hours.  The pasta will absorb the cream and expand."
+     dependencies: [1]
+     time: 1380
+     timer: True
+  - 3:
+     name: "Bring Pasta to Room Temperature"
+     step: "When ready to cook, allow the mixture to sit at room temperature for about an hour."
+     dependencies: [2]
+     time: 60
+     timer: True
+  - 4:
+     name: "Preheat the Oven"
+     step: "Preheat the oven to 400 degrees"
+     dependencies: [2]
+     time: 10
+  - 5:
+     name: "Add Pasta to Gratin Dish"
+     step: "Butter a 2-quart gratin dish, transfer the pasta mixture to the dish and spread it evenly." 
+     dependencies: [2]
+     time: 10
+  - 6:
+     name: "Top with Cheese"
+     step: "Combine the remaining 1 cup Gruyere and ½ cup Cheddar and sprinkle it evenly on top." 
+     dependencies: [5]
+     time: 10
+  - 7:
+     name: "Top with Butter and Bread Crumbs"
+     step: "Combine 1½ cups fine fresh bread crumbs and 2 tablespoons butter and sprinkle evenly on top." 
+     dependencies: [6]
+     time: 10
+  - 8:
+     name: "Bake"
+     step: "Bake for 10 minutes and then rotate pan." 
+     dependencies: [7]
+     time: 10
+     timer: True
+  - 9:
+     name: "Rotate and continue baking"
+     step: "Bake for another 10 to 15 minutes, until golden brown and crusty." 
+     dependencies: [8]
+     time: 10
+     timer: True

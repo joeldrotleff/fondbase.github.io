@@ -1,0 +1,103 @@
+---
+name: "Chicken Cutlets with Quick Pan Sauce"
+author: "Mark Bittman"
+source: "How to Cook Everything The Basics"
+ingredients:
+  - 1 cup all-purpose flour
+  - 1 1/2 pounds boneless, skinless chicken breasts, thighs, or tenders
+  - Salt and freshly ground black pepper
+  - 2 tablespoons olive oil
+  - 3 tablespoons butter
+  - 1/2 cup dry white wine
+  - 1/2 cup water, chicken stock, or vegetable stock
+  - 1/4 cup chopped fresh parsley leaves, plus 2 tablespoons for garnish
+  - 1 lemon, quartered, for serving
+steps:
+  - 1:
+     name: "Preheat the Oven"
+     step: "Preheat the oven to 200°F." 
+     dependencies: null
+     time: 10
+  - 2:
+     name: "Pound and Season the Chicken"
+     step: "Put each cutlet between 2 sheets of sheet of plastic wrap and pound to uniform thickness.  Blot the chicken dry with a paper towel and sprinkle with salt and pepper" 
+     dependencies: null
+     time: 5
+  - 3:
+     name: "Prepare the flour"
+     step: "Put 1 cup of flour on a plate or in a shallow bowl next to the stove." 
+     dependencies: null
+     time: 1
+  - 4:
+     name: "Heat the oil and butter"
+     step: "Put 2 tbsp olive oil and 2 tbsp of butter in a large skillet over medium-high heat until butter has melted."
+     dependencies: [3]
+     time: 2
+  - 5:
+     name: "Flour and Begin Cooking the First Batch of Chicken"
+     step: "Turn a piece of the chicken in the flour to coat it on all sides and shake off any excess flour. Add the floured chicken to the pan, then repeat with 2-3 more pieces to avoid crowding the pan."
+     dependencies: [4]
+     time: 2
+  - 6:
+     name: "Pan Fry the Chicken"
+     step: "Cook, adjusting the heat as needed so that the fat is always bubbling but the chicken doesn’t burn."
+     dependencies: [5]
+     time: 2
+     timer: True
+  - 7:
+     name: "Rotate (but don't flip) the Chicken"
+     step: "After 2 minutes, rotate the chicken so that the outside edges are moved toward the center and vice versa (don’t flip them; you want the same side in contact with the fat).  Cook for another 3 to 4 minutes until the bottom is browned."
+     dependencies: [6]
+     time: 3
+     timer: True
+  - 8:
+     name: "Flip the Chicken and Continue Cooking"
+     step: "Turn the cutlets over and cook on the second side, adjusting the heat, another 3 to 4 minutes. To check for doneness, cut into a piece with a thin-bladed knife and take a peek. Transfer the chicken to an ovenproof platter and put it in the oven."
+     dependencies: [7]
+     time: 3
+     timer: True
+  - 9:
+     name: "Flour and Begin Cooking the Second Batch of Chicken"
+     step: "Turn a piece of the chicken in the flour to coat it on all sides and shake off any excess flour. Add the floured chicken to the pan, then repeat with 2-3 more pieces to avoid crowding the pan."
+     dependencies: [8]
+     time: 2
+  - 10:
+     name: "Pan Fry the Chicken"
+     step: "Cook, adjusting the heat as needed so that the fat is always bubbling but the chicken doesn’t burn."
+     dependencies: [9]
+     time: 2
+     timer: True
+  - 11:
+     name: "Rotate (but don't flip) the Chicken"
+     step: "After 2 minutes, rotate the chicken so that the outside edges are moved toward the center and vice versa (don’t flip them; you want the same side in contact with the fat).  Cook for another 3 to 4 minutes until the bottom is browned."
+     dependencies: [10]
+     time: 3
+     timer: True
+  - 12:
+     name: "Flip the Chicken and Continue Cooking"
+     step: "Turn the cutlets over and cook on the second side, adjusting the heat, another 3 to 4 minutes. To check for doneness, cut into a piece with a thin-bladed knife and take a peek. Transfer the chicken to an ovenproof platter and put it in the oven."
+     dependencies: [11]
+     time: 3
+     timer: True
+  - 13:
+     name: "Flip the Chicken and Continue Cooking"
+     step: "Turn the cutlets over and cook on the second side, adjusting the heat, another 3 to 4 minutes. To check for doneness, cut into a piece with a thin-bladed knife and take a peek. Transfer the chicken to the ovenproof platter in the oven."
+     dependencies: [12]
+     time: 3
+     timer: True
+  - 14:
+     name: "Deglaze the Pan with Wine"
+     step: "Add 1/2 cup dry white wine to the skillet, keeping the heat at medium-high. Let it bubble away as you stir and scrape the bottom of the pan, until about half the wine has evaporated, a minute or two."
+     dependencies: [13]
+     time: 2
+  - 15:
+     name: "Continue Making the Pan Sauce"
+     step: "Pour in 1/2 cup water, chicken stock, or vegetable stock and continue to stir until the liquid has thickened slightly and reduced to 1/4 cup, another 2 or 3 minutes. Add 1 tbsp of butter to the skillet and swirl the pan around until the butter melts; turn off the heat."
+     dependencies: [14]
+     time: 3
+  - 16:
+     name: "Combine the Chicken and Sauce"
+     step: "Remove the chicken from the oven, and if any juices have accumulated on the platter, add them to the skillet along with the 1/4 cup parsley. Stir, taste the sauce, and adjust the seasoning. Spoon the sauce over the chicken, garnish with the remaining 2 tablespoons parsley, and serve with the lemon quarters."
+     dependencies: [15]
+     time: 2
+     timer: True

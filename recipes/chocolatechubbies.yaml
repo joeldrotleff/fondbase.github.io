@@ -1,0 +1,88 @@
+---
+name: "Chocolate Chubbies"
+author: "Sarabeth Levine"
+source: "Sarabeth's Bakery"
+ingredients:
+  - 8 tablespoons (1 stick) unsalted butter, cut into 1/2-inch cubes
+  - 9 ounces semisweet or bittersweet chocolate (no more than 62 percent cacao), finely chopped
+  - 3 ounces unsweetened chocolate, finely chopped
+  - 1/2 cup unbleached all-purpose flour
+  - 1/2 teaspoon baking powder
+  - 1/4 teaspoon fine sea salt
+  - 3 large eggs, at room temperature
+  - 1 1/4 cups superfine sugar
+  - 2 teaspoons pure vanilla extract
+  - 2 cups (12 ounces) semisweet chocolate chips
+  - 1 1/2 cups (5 1/2 ounces) coarsely chopped pecans
+  - 1 1/4 cups (4 1/2 ounces) coarsely chopped walnuts
+steps:
+  - 1:
+     name: "Preheat Oven"
+     step: "Position racks in the center and top third of the oven and preheat to 350°F. Line two half-sheet pans with parchment paper."
+     dependencies: null
+     time: 15
+  - 2:
+     name: "Melt Chocolate"
+     step: "Bring 1 inch of water to a simmer in a medium saucepan over low heat. Put 1 stick (8 oz) butter in a wide, heatproof bowl, and melt the butter over the hot water in the saucepan. Add 9 oz semisweet and 3 oz unsweetened chocolate, stirring often, until melted and the mixture is smooth."
+     dependencies: [1]
+     time: 5
+  - 3:
+     name: "Remove Chocolate from Heat"
+     step: "Remove the bowl from the heat and let stand, stirring occasionally, until cooled slightly but still warm, about 5 minutes."
+     dependencies: [2]
+     time: 5
+  - 4:
+     name: "Mix Dry Ingredients"
+     step: "Sift 1/2 cup unbleached all-purpose flour, 1/2 teaspoon baking powder, and 1/4 teaspoon fine sea salt together into a medium bowl."
+     dependencies: null
+     time: 2
+  - 5:
+     name: "Whip the Eggs in a Stand Mixer"
+     step: "Whip 3 large eggs in the bowl of a heavy-duty stand mixer fitted with the whisk attachment on medium-high speed until the eggs are foamy and lightly thickened, about 30 seconds."
+     dependencies: null
+     time: .5
+     timer: True
+  - 6:
+     name: "Whip the Eggs in a Stand Mixer"
+     step: "Increase the speed to high and gradually add 1 1/4 cups superfine sugar and 2 tsp vanilla extract. Whip until the eggs are very thick and pale yellow, about 3 minutes."
+     dependencies: [5]
+     time: 3
+     timer: True
+  - 7:
+     name: "Add the Cooled Chocolate"
+     step: "Reduce the mixer speed to medium and beat in the tepid chocolate, making sure it is completely incorporated."
+     dependencies: [6]
+     time: 2
+   - 8:
+     name: "Add the Flour Mixture"
+     step: "Change to the paddle attachment and reduce the mixer speed to low. Gradually add the flour mixture. ."
+     dependencies: [7]
+     time: 3
+   - 9:
+     name: "Stir in Nuts"
+     step: "Remove the bowl from the mixer. Using a wooden spoon, stir in 2 cups of chocolate chips, 1 1/2 cups of chopped pecans, and 1 1/4 cups of chopped walnuts, making sure the chunky ingredients are evenly distributed at the bottom of the bowl. The dough will be somewhat soft."
+     dependencies: [8]
+     time: 2
+   - 10:
+     name: "Portion the Batter"
+     step: "Using a 2-inch ice-cream scoop, portion the batter onto the prepared pans, placing the cookies about 1 1/2 inches apart."
+     dependencies: [9]
+     time: 3 
+   - 11:
+     name: "Bake Immediately"
+     step: "Bake the cookies immediately (if you wait, they won’t be shiny after baking) for 10 minutes."
+     dependencies: [10]
+     time: 10
+     timer: True
+   - 12:
+     name: "Rotate Baking Sheets"
+     step: "Rotate the position of the baking sheets from top to bottom and front to back.  Continue baking until the cookies are set around the edges  (if you lift a cookie from the pan, the edges should release easily, even if the center of the cookie seems underdone), another 7 to 10 minutes.  Do not overbake."
+     dependencies: [11]
+     time: 7
+     timer: True
+   - 13:
+     name: "Cool and Enjoy"
+     step: "Cool completely on the baking pans."
+     dependencies: [12]
+     time: 15
+     timer: True

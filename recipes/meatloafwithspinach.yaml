@@ -1,0 +1,71 @@
+---
+name: "Meat Loaf with Spinach"
+author: "Allison Fishman Task"
+source: "Lighten Up, America!"
+ingredients:
+  - 1 (5-ounce) package fresh baby spinach
+  - 2 tablespoons water
+  - 1 pound ground sirloin
+  - 1/2 pound ground veal
+  - 1 1/2 cups finely chopped onion
+  - 1 1/2 teaspoons dry mustard
+  - 1/2 teaspoon dried thyme
+  - 1 large egg
+  - 1/2 cup uncooked old-fashioned rolled oats
+  - 1/4 cup ketchup
+  - 2 tablespoons brown sugar
+  - 2 tablespoons cider vinegar
+steps:
+  - 1:
+     name: "Preheat Oven"
+     step: "Preheat Oven to 450."
+     dependencies: null
+     time: 10
+  - 2:
+     name: "Saute Spinach"
+     step: "heat a large sauté pan over medium heat; add 1 5-oz package of baby spinach and 2 tablespoons water to pan. Cover and steam 2 minutes or until spinach wilts. Remove pan from heat; cool 5 minutes."
+     dependencies: null
+     time: 7
+  - 3:
+     name: "Mix Meatloaf Ingredients"
+     step: "In a large bowl, combine 1 pound ground sirloin, 1/2 pound ground veal, 1 1/2 cups finely chopped onion, 1 1/2 teaspoons dry mustard, 1/2 teaspoon dried thyme, 1 large egg."
+     dependencies: [2]
+     time: 3
+  - 4:
+     name: "Gently Mix"
+     step: "Add cooked and cooled spinach and 1/2 cup uncooked old-fashioned rolled oats; gently mix until blended."
+     dependencies: [3]
+     time: 1
+  - 5:
+     name: "Shape Loaf"
+     step: "In a 9 x 13–inch glass or ceramic baking dish coated with cooking spray, shape mixture into a 9 x 5–inch loaf."
+     dependencies: [4]
+     time: 2
+  - 6:
+     name: "Shape Loaf"
+     step: "In a 9 x 13–inch glass or ceramic baking dish coated with cooking spray, shape mixture into a 9 x 5–inch loaf."
+     dependencies: [4]
+     time: 7
+  - 7:
+     name: "Prepare Glaze"
+     step: "Combine 1/4 cup ketchup, 2 tbsp brown sugar and 2 tbsp apple cider vinegar, stirring with a whisk until blended."
+     dependencies: [null]
+     time: 3
+  - 8:
+     name: "Brush Glaze and Bake"
+     step: "Brush glaze over meat loaf. Bake at 450° for 15 minutes."
+     dependencies: [7,1]
+     time: 15
+     timer: True
+  - 9:
+     name: "Reduce Heat and Continue Baking"
+     step: "Reduce heat to 350° for an additional 45 minutes."
+     dependencies: [8]
+     time: 45
+     timer: True
+  - 10:
+     name: "Cool and serve"
+     step: "Let meatloaf cool for 10 minutes before slicing and serving."
+     dependencies: [9]
+     time: 10
+     timer: True

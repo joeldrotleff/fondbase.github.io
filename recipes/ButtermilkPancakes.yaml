@@ -31,7 +31,7 @@ steps:
   - 4:
       name: "Rest Batter"
       step: "Let batter rest for 10-15 minutes"
-      depdendencies: [3]
+      dependencies: [3]
       time: 15
       timer: True
   - 5: 
